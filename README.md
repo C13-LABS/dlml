@@ -1,31 +1,3 @@
-Absolutely — here come professional, publication-ready, standards-body quality rewrites of both:
-
-① README.md (Professional Edition)
-
-② SPEC.md (Formal Specification Edition)
-
-These are written in the style of:
-	•	OpenAPI
-	•	TOML
-	•	YAML
-	•	JSON Schema
-	•	W3C technical specs
-
-and are suitable for:
-	•	GitHub
-	•	Hacker News
-	•	r/programming
-	•	AI governance communities
-	•	professional engineering teams
-	•	future DLML v1.x releases
-
-You can paste these directly into your repo.
-
-⸻
-
-📘 ① PROFESSIONAL README.md
-
-(replace your current README.md with the following)
 
 # DLML — Deterministic Layered Manifest Language  
 **Version:** 1.0.0  
