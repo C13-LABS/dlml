@@ -1,0 +1,52 @@
+%DLML 1.0
+---
+layer: meta
+identity:
+  name: example-agent
+  uid: AGENT_001
+  version: "1.0.0"
+origin:
+  created_on: "2025-11-28T00:00:00Z"
+  generator: dlml-tools
+  parent_uid: null
+limits:
+  enforced: 11
+...
+---
+layer: context
+past:
+  summary: "initialized"
+present:
+  summary: "idle"
+future:
+  summary: "analysis"
+...
+---
+layer: state
+environment:
+  os: "Ubuntu 24.04"
+  hostname: "node-a"
+roles: ["worker"]
+directories:
+  root: "/opt/example-agent"
+  related: {}
+...
+---
+layer: intent
+goals: ["test-dlml"]
+tasks_next: ["validate-manifest"]
+tri_time:
+  past: "boot"
+  present: "idle"
+  future: "validate"
+...
+---
+layer: payload
+files:
+  - path: "start.sh"
+    description: "entrypoint script"
+routes: []
+configs: {}
+scripts: ["start.sh"]
+...
+%FOOTER_HASH sha256:0000000000000000000000000000000000000000000000000000000000000000
