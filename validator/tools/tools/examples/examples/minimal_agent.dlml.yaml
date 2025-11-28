@@ -1,0 +1,33 @@
+%DLML 1.0
+---
+layer: meta
+identity: { name: minimal-agent, uid: MIN_001, version: "1.0.0" }
+origin: { created_on: "2025-11-28T00:00:00Z", generator: dlml-tools }
+limits: { enforced: 11 }
+...
+---
+layer: context
+past: {}
+present: {}
+future: {}
+...
+---
+layer: state
+environment: {}
+roles: []
+directories: {}
+...
+---
+layer: intent
+goals: []
+tasks_next: []
+tri_time: { past: null, present: null, future: null }
+...
+---
+layer: payload
+files: []
+routes: []
+configs: {}
+scripts: []
+...
+%FOOTER_HASH sha256:0000000000000000000000000000000000000000000000000000000000000000
